@@ -4,8 +4,7 @@ from googleapiclient.discovery import build
 
 class YouTubeMusicIntegration:
     def __init__(self):
-        #self.youtube_api_key = os.getenv("YOUTUBE_API_KEY")
-        self.youtube_api_key="AIzaSyDrzy-dOWxaKuoRuP0N68Gm8RVLwDeK1d4"
+        self.youtube_api_key = os.getenv("YOUTUBE_API_KEY")
         self.youtube = build('youtube', 'v3', developerKey=self.youtube_api_key)
     
     def search_track(self, song_title, artist):
