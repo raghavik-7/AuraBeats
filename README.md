@@ -305,10 +305,6 @@ tail -f app.log
 - **Offline Mode**: Local processing without internet dependency
 - **Mobile App**: Native mobile application development
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Support
 
 For technical support or questions:
