@@ -1,0 +1,12 @@
+pip install -r requirements.txt
+python app4.py
+pip install spacy
+python -m spacy download en_core_web_sm
+
+pip install youtube-transcript-api
+from youtube_transcript_api import YouTubeTranscriptApi
+transcript = YouTubeTranscriptApi.get_transcript('video_id')
+
+rapidx api 
+app = default-application_10744485
+x-rapidapi-key = 

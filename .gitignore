@@ -1,0 +1,10 @@
+# Python environments
+venv/
+image_music_env/
+__pycache__/
+*.pyc
+*.pkl
+*.dll
+*.lib
+venv/
+image_music_env/
