@@ -296,14 +296,6 @@ tail -f app.log
 - **Rate Limiting**: Protection against API abuse
 - **HTTPS**: Use HTTPS in production environments
 
-## Performance Metrics
-
-- **Image Processing**: 2-5 seconds per image
-- **Music Recommendations**: 3-8 seconds for full analysis
-- **Caption Generation**: 1-2 seconds per song
-- **Memory Usage**: 2-4GB RAM (varies by model)
-- **Concurrent Users**: Supports multiple simultaneous users
-
 ## Future Enhancements
 
 - **Video Analysis**: Support for video content analysis
